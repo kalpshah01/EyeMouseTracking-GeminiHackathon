@@ -41,7 +41,7 @@ export default function Home() {
                     <div className="hero-buttons">
                         <a
                             className="btn btn-primary btn-lg"
-                            href='https://github.com/kalpshah01/EyeMouseTracking-GeminiHackathon/releases/download/v1.0/EyeMouse.exe'
+                            href="/EyeTrackingMouse_v5.4.0_Windows.zip"
                             download
                         >
                             <span className="btn-icon">🪟</span>
@@ -104,9 +104,7 @@ export default function Home() {
 
                     <div className="alert alert-warning" style={{ maxWidth: 700, margin: '0 auto 32px' }}>
                         <span className="alert-icon">⚠️</span>
-                        <span><strong>Onwards Python 3.9, 3.10, or 3.11.</strong>
-                         MediaPipe does NOT support Python 3.12+ on all platforms. Use Python 3.10 for best compatibility.
-                         </span>
+                        <span><strong>Python 3.9, 3.10, or 3.11 required.</strong> MediaPipe does NOT support Python 3.12+ on all platforms. Use Python 3.10 for best compatibility.</span>
                     </div>
 
                     <div className="table-wrap" style={{ maxWidth: 700, margin: '0 auto' }}>

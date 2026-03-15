@@ -51,7 +51,7 @@ export default function Download() {
                             <div className="download-icon">🍎</div>
                             <div className="download-os-name">macOS</div>
                             <div className="download-version">v5.4.0 — Build in progress</div>
-                            <div className="coming-soon-badge">🔧 In progress</div>
+                            <div className="coming-soon-badge">🔧 Coming Soon</div>
                             <div className="download-size mt-16">
                                 Meanwhile, install from source:<br />
                                 <Link to="/how-to-use#macos" style={{ color: 'var(--cyan)', textDecoration: 'none', fontSize: '0.82rem' }}>
@@ -115,7 +115,7 @@ export default function Download() {
 
                         <div className="alert alert-warning">
                             <span className="alert-icon">⚠️</span>
-                            <span><strong>Onwards Python 3.9, 3.10, or 3.11.</strong> Use Python 3.10 for best compatibility with MediaPipe.</span>
+                            <span>Python 3.9, 3.10, or 3.11 required. Use Python 3.10 for best compatibility with MediaPipe.</span>
                         </div>
 
                         <div className="code-block">

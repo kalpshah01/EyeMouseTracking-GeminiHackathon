@@ -244,7 +244,7 @@ export default function HowToUse() {
                     <div style={{ maxWidth: 720, margin: '0 auto' }}>
                         <div className="alert alert-warning">
                             <span className="alert-icon">⚠️</span>
-                            <span><strong>Onwards Python 3.9, 3.10, or 3.11.</strong> Use Python 3.10 for best compatibility. Download: <a href="https://www.python.org/downloads/release/python-3100/" target="_blank" rel="noreferrer" style={{ color: 'var(--yellow)' }}>python.org</a></span>
+                            <span><strong>Python 3.9, 3.10, or 3.11 required.</strong> Use Python 3.10 for best compatibility. Download: <a href="https://www.python.org/downloads/release/python-3100/" target="_blank" rel="noreferrer" style={{ color: 'var(--yellow)' }}>python.org</a></span>
                         </div>
 
                         <CodeBlock
