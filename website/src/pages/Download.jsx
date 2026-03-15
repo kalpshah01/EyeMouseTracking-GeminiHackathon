@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Download() {
     const handleWindowsDownload = () => {
         const link = document.createElement('a')
-       link.href = 'https://github.com/kalpshah01/EyeMouseTracking-GeminiHackathon/releases/download/v1.0/EyeMouse.exe'
+       link.href = 'https://github.com/kalpshah01/EyeMouseTracking-GeminiHackathon/releases/download/v1.0/EyeMouse.1.exe'
         link.download = 'EyeMouse.exe'
         document.body.appendChild(link)
         link.click()

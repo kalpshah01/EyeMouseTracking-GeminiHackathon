@@ -41,7 +41,7 @@ export default function Home() {
                     <div className="hero-buttons">
                         <a
                             className="btn btn-primary btn-lg"
-                            href='https://github.com/kalpshah01/EyeMouseTracking-GeminiHackathon/releases/download/v1.0/EyeMouse.exe'
+                            href='https://github.com/kalpshah01/EyeMouseTracking-GeminiHackathon/releases/download/v1.0/EyeMouse.1.exe'
                             download
                         >
                             <span className="btn-icon">🪟</span>
